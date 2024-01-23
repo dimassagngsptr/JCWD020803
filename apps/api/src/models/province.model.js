@@ -30,3 +30,4 @@ export const init = (sequelize) => {
   );
   return Province;
 };
+

@@ -8,8 +8,10 @@ export default class Address extends Model {
    */
   static associate(models) {
     // define association here
+
     Address.belongsTo(models.Customer);
     Address.belongsTo(models.City);
+
   }
 }
 
